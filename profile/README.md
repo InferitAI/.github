@@ -22,13 +22,29 @@ Anyone can sell inference for any model, at their own price. Buyers and agents p
 
 ---
 
-## Built and next
+## What we have built and what comes next
 
-| | |
-|---|---|
-| **Live** | [x402 v2 pay-per-request](https://github.com/InferitAI/roadmap/issues/1) · [model auto](https://github.com/InferitAI/roadmap/issues/2) · [whitechain-x402-facilitator](https://github.com/InferitAI/whitechain-x402-facilitator) · [inferit-seller](https://github.com/InferitAI/inferit-seller) (sell from your own computer) · [live model discovery](https://github.com/InferitAI/roadmap/issues/5) · [framework guides](https://github.com/InferitAI/inferit-examples) |
-| **Next** | [MPP payments in the Whitechain facilitator](https://github.com/InferitAI/roadmap/issues/7) · [inferit-mcp](https://github.com/InferitAI/roadmap/issues/8) (one-command install for Claude Code and Codex) |
-| **Planned** | [Whitechain mainnet](https://github.com/InferitAI/roadmap/issues/9) (USDC.e, USDT) · [security audit](https://github.com/InferitAI/roadmap/issues/11) · [proof of human for sellers](https://github.com/InferitAI/roadmap/issues/12) (Human Passport) · [SDKs](https://github.com/InferitAI/roadmap/issues/13) (JS, Python) · [verified company providers](https://github.com/InferitAI/roadmap/issues/14) and [their own models](https://github.com/InferitAI/roadmap/issues/15) · [public on-chain metrics](https://github.com/InferitAI/roadmap/issues/16) |
+| Component | What it does | Status |
+|---|---|---|
+| [x402 v2 pay-per-request](https://github.com/InferitAI/roadmap/issues/1) | Agents pay per request with no account or API key: a call gets a 402 quote, the agent signs and resends | **Live** |
+| [Model auto](https://github.com/InferitAI/roadmap/issues/2) | Inferit picks the model: ranked models with a healthy seller, quality weighed against price; never reads the prompt | **Live** |
+| [whitechain-x402-facilitator](https://github.com/InferitAI/roadmap/issues/3) | The first public x402 v2 facilitator for Whitechain, live on Whitechain Sepolia | **Live** |
+| [inferit-seller](https://github.com/InferitAI/roadmap/issues/4) | Sell inference from your own computer with one command: Ollama, LM Studio, vLLM or llama.cpp; no open port or domain | **Live** |
+| [Live model discovery](https://github.com/InferitAI/roadmap/issues/5) | Each model's healthy sellers, 24-hour uptime, time to first token and per-seller prices | **Live** |
+| [Framework guides and examples](https://github.com/InferitAI/roadmap/issues/6) | Tested guides and runnable examples for LangChain, Vercel AI SDK, LiteLLM, CrewAI and OpenCode | **Live** |
+| [MPP payments](https://github.com/InferitAI/roadmap/issues/7) | Settle Machine Payments Protocol payments alongside x402, including sessions: approve a limit once, pay per call | **In development** |
+| [inferit-mcp](https://github.com/InferitAI/roadmap/issues/8) | One-command install for Claude Code and Codex: browse models and prices, buy inference under a price cap | **In development** |
+| [Whitechain mainnet (USDC.e)](https://github.com/InferitAI/roadmap/issues/9) | Escrow and x402 payments in USDC.e on Whitechain mainnet, once it is live | **Planned** |
+| [USDT on Whitechain](https://github.com/InferitAI/roadmap/issues/10) | USDT payments through x402's Permit2 path on Whitechain | **Planned** |
+| [Security audit](https://github.com/InferitAI/roadmap/issues/11) | External audit of the contracts on a frozen release; service keys in a key-management service | **Planned** |
+| [Proof of human for sellers](https://github.com/InferitAI/roadmap/issues/12) | Sellers prove a real, unique person is behind them with Human Passport, recorded on Whitechain | **Planned** |
+| [SDKs (JS, Python)](https://github.com/InferitAI/roadmap/issues/13) | OpenAI-compatible clients with x402 on Whitechain, model auto and live discovery built in | **Planned** |
+| [Verified company providers](https://github.com/InferitAI/roadmap/issues/14) | Company name and logo on offers, a verified badge, public uptime, company accounts and invoices | **Planned** |
+| [Companies' own models](https://github.com/InferitAI/roadmap/issues/15) | Companies list models only they serve, such as their own fine-tunes, after quality checks | **Planned** |
+| [Public on-chain metrics](https://github.com/InferitAI/roadmap/issues/16) | Requests, volume and sellers, every figure linked to the Whitechain explorer | **Planned** |
+| [Seller verification and reputation](https://github.com/InferitAI/roadmap/issues/17) | Checks that sellers serve the model they list, and a reputation score | **Planned** |
+| [Images and speech](https://github.com/InferitAI/roadmap/issues/18) | Image generation, speech-to-text and text-to-speech served from sellers' own hardware | **Later** |
+| [Seller app for non-developers](https://github.com/InferitAI/roadmap/issues/19) | Installer and menu-bar app for Mac and Windows, with GPU detection and an earnings view | **Later** |
 
 [Full roadmap →](https://github.com/InferitAI/roadmap)
 
