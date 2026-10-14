@@ -22,6 +22,18 @@ Anyone can sell inference for any model, at their own price. Buyers and agents p
 
 ---
 
+## Built and next
+
+| | |
+|---|---|
+| **Live** | [x402 v2 pay-per-request](https://github.com/InferitAI/roadmap/issues/1) · [model auto](https://github.com/InferitAI/roadmap/issues/2) · [whitechain-x402-facilitator](https://github.com/InferitAI/whitechain-x402-facilitator) · [inferit-seller](https://github.com/InferitAI/inferit-seller) (sell from your own computer) · [live model discovery](https://github.com/InferitAI/roadmap/issues/5) · [framework guides](https://github.com/InferitAI/inferit-examples) |
+| **Next** | [MPP payments in the Whitechain facilitator](https://github.com/InferitAI/roadmap/issues/7) · [inferit-mcp](https://github.com/InferitAI/roadmap/issues/8) (one-command install for Claude Code and Codex) |
+| **Planned** | [Whitechain mainnet](https://github.com/InferitAI/roadmap/issues/9) (USDC.e, USDT) · [security audit](https://github.com/InferitAI/roadmap/issues/11) · [proof of human for sellers](https://github.com/InferitAI/roadmap/issues/12) (Human Passport) · [SDKs](https://github.com/InferitAI/roadmap/issues/13) (JS, Python) · [verified company providers](https://github.com/InferitAI/roadmap/issues/14) and [their own models](https://github.com/InferitAI/roadmap/issues/15) · [public on-chain metrics](https://github.com/InferitAI/roadmap/issues/16) |
+
+[Full roadmap →](https://github.com/InferitAI/roadmap)
+
+---
+
 ## Two ways in
 
 | | **Buy** | **Sell** |
@@ -76,6 +88,7 @@ The app finds your local model server, matches its models to the catalog and run
 | [awesome-inferit](https://github.com/InferitAI/awesome-inferit) | Docs, guides, repositories and endpoints for Inferit, in one index |
 | [awesome-x402-whitechain](https://github.com/InferitAI/awesome-x402-whitechain) | x402 resources for Whitechain: the spec, SDKs, EIP-3009, the testnet, facilitators and examples |
 | [branding](https://github.com/InferitAI/branding) | The Inferit logo files, colours, type and usage rules |
+| [roadmap](https://github.com/InferitAI/roadmap) | What Inferit has built and what comes next |
 
 Inferit runs the market API and the router; their code is private.
 
