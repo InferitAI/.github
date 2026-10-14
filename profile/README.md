@@ -38,7 +38,8 @@ Anyone can sell inference for any model, at their own price. Buyers and agents p
 | [USDT on Whitechain](https://github.com/InferitAI/roadmap/issues/10) | USDT payments through x402's Permit2 path on Whitechain | **Planned** |
 | [Security audit](https://github.com/InferitAI/roadmap/issues/11) | External audit of the contracts on a frozen release; service keys in a key-management service | **Planned** |
 | [Proof of human for sellers](https://github.com/InferitAI/roadmap/issues/12) | Sellers prove a real, unique person is behind them with Human Passport, recorded on Whitechain | **Planned** |
-| [SDKs (JS, Python)](https://github.com/InferitAI/roadmap/issues/13) | OpenAI-compatible clients with x402 on Whitechain, model auto and live discovery built in | **Planned** |
+| [inferit-js](https://github.com/InferitAI/roadmap/issues/13) | TypeScript and JavaScript SDK (npm): an OpenAI-compatible client with x402 on Whitechain, model auto and live discovery built in | **Planned** |
+| [inferit-py](https://github.com/InferitAI/roadmap/issues/20) | Python SDK (PyPI): the same for Python, ready for LangChain, LiteLLM and CrewAI | **Planned** |
 | [Verified company providers](https://github.com/InferitAI/roadmap/issues/14) | Company name and logo on offers, a verified badge, public uptime, company accounts and invoices | **Planned** |
 | [Companies' own models](https://github.com/InferitAI/roadmap/issues/15) | Companies list models only they serve, such as their own fine-tunes, after quality checks | **Planned** |
 | [Public on-chain metrics](https://github.com/InferitAI/roadmap/issues/16) | Requests, volume and sellers, every figure linked to the Whitechain explorer | **Planned** |
